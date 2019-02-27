@@ -5,9 +5,9 @@ Version: 0.1.0
 Author: Guillaume Bouzillé
 Maintainer: Guillaume Bouzillé <guillaume.bouzille@univ-rennes1.fr>
 Description: The package provides two main functionnalities: 1) A generator of a
-typical Plumber API directory containing required files with minimal content to
-have an API working. Optionnaly, a minimal wep application can be created. 2) A
-Generic class to manage endpoints, routes and so on. 
+  typical Plumber API directory containing required files with minimal content to
+  have an API working. Optionnaly, a minimal wep application can be created. 2) A
+  Generic class to manage endpoints, routes and so on. 
 License: N/A
 Encoding: UTF-8
 LazyData: true
