@@ -15,11 +15,15 @@ createBoilerplate <- function(name,
                               webapp = TRUE,
                               webapp_name = name) {
 
-  if (dir.exists(path)) {
-    if(length(list.files(path)) > 0) {
-      stop("Provided path is not empty. Aborting.")
-    }
-  } else {
+  # if (dir.exists(path)) {
+  #   if(length(list.files(path)) > 0) {
+  #     stop("Provided path is not empty. Aborting.")
+  #   }
+  # } else {
+  #   dir.create(path)
+  # }
+
+  if (!dir.exists(path)) {
     dir.create(path)
   }
 
