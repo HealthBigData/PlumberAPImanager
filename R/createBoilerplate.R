@@ -67,7 +67,7 @@ createBoilerplate <- function(name,
 
   cat("You can now launch your basic API with plumber::plumb() from inside ",
       path, " directory. By default, API will be available through
-      http://127.0.0.1:9543/", name, "/")
+      http://127.0.0.1:9543/", name, "/", sep = "")
 
   invisible(NULL)
 }
